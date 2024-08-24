@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-faster-loading"
+description = "This extension applies a patch that limits the model loading speed when using an HDD in a Windows environment. See [a/comfyanonymous/ComfyUI#1992](https://github.com/comfyanonymous/ComfyUI/issues/1992). [w/As this patch is only useful in very limited environments, its installation is not recommended under normal circumstances. Memory usage may increase.]"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/nonnonstop/comfyui-faster-loading"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-faster-loading"
+Icon = ""
